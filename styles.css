@@ -136,3 +136,8 @@ h1, h2 {
 .taskCollection li button:hover {
   background-color: #c82333;
 }
+
+.strikethrough {
+  text-decoration: line-through;
+  color: #888;
+}

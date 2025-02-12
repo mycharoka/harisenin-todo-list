@@ -98,7 +98,7 @@ function renderTaskCompleted() {
   completedTasks.forEach((task, index) => {
     const createList = document.createElement('li');
     createList.innerHTML = `
-      <h1>${task.inputText}</h1>
+      <h1 class="strikethrough">${task.inputText}</h1>
       <p>${task.priorityValue}</p>
       <p>${task.dateValue}</p>
       <button onclick= "deleteCompletedTask(${index})">Delete</button>
