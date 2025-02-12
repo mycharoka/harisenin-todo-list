@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="taskForm">
+    <h1>To Do List</h1>
+    <p>Name: Vidi The Software Engineer</p>
+    <p>Role: The Noob Web Developer</p>
+
+    <div class="taskInputForm">
+      <input type="text" placeholder="Add a Task" id="taskInput"/>
+      <select name="priority" id="priority" class="priority" id="priority">
+        <option value="low">Low Priority</option>
+        <option value="med">Medium Priority</option>
+        <option value="high">High Priority</option>
+      </select>
+      <input type="date" id="date">
+
+      <div class="inputTaskButton">
+        <button type="submit" id="addButton">Add</button>
+      </div>
+    </div>
+  </div>
+  
+  <button type="submit" id="deleteAllButton">Delete</button>
+
+
+  <div class="taskCollection">
+    <h2>Tasks To Do</h2>
+    <ul id="taskList"></ul>
+  </div>
+
+  <div class="taskCollection">
+    <h2>Task Done</h2>
+    <ul id="taskDone"></ul>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

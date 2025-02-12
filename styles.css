@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+.taskForm {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.taskInputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.taskInputForm input, .taskInputForm select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.taskInputForm input[type="date"] {
+  padding: 9px;
+}
+
+.inputTaskButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputTaskButton button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inputTaskButton button:hover {
+  background-color: #218838;
+}
+
+#deleteAllButton {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#deleteAllButton:hover {
+  background-color: #c82333;
+}
+
+.taskCollection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.taskCollection h2 {
+  margin-bottom: 10px;
+}
+
+.taskCollection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.taskCollection li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskCollection li h1 {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.taskCollection li p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.taskCollection li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.taskCollection li button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.taskCollection li button:hover {
+  background-color: #c82333;
+}
